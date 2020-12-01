@@ -65,4 +65,7 @@
 /drupal.phar
 /drupal
 
-# End of https://www.toptal.com/developers/gitignore/api/drupal8
+# End of https://www.toptal.com/developers/gitignore/api/drupal9
+
+# Ignore contribute modules
+/web/modules/contrib
