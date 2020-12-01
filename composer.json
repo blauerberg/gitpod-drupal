@@ -21,6 +21,7 @@
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
+        "drupal/twig_xdebug": "^1.2",
         "drush/drush": "^10.3"
     },
     "require-dev": {
