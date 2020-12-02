@@ -1,9 +1,9 @@
 # gitpod-drupal
 Start up the sandbox instance for Drupal on gitpod.io.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blauerberg/gitpod-drupal)
+[![Open in Gitpod](https://gitpod.io/#https://github.com/blauerberg/gitpod-drupal/tree/8.9.x)
 
-## How to instllation
+## How to installation
 
 This pod will automatically install Drupal and get you started right away.
 It also includes the following modules to assist with debugging:
