@@ -8,7 +8,6 @@ Start up the sandbox instance for Drupal on gitpod.io.
 This pod will automatically install Drupal and get you started right away.
 It also includes the following modules to assist with debugging:
 - [Drush](https://www.drupal.org/project/drush)
-- [Drupal Console](https://drupalconsole.com/)
 - [Devel](https://www.drupal.org/project/devel)
 - [Twig VarDumper](https://www.drupal.org/project/twig_vardumper)
 - [Twig Debugger](https://www.drupal.org/project/twig_debugger)
