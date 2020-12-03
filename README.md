@@ -1,5 +1,5 @@
 # gitpod-drupal
-Start up the sandbox instance for Drupal on gitpod.io.
+Start up the sandbox instance for Drupal on [gitpod.io](https://gitpod.io/).
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blauerberg/gitpod-drupal)
 
