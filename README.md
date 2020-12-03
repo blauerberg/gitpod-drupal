@@ -19,12 +19,12 @@ This pod create an account below when initialized:
 - username: `admin`
 - password: `{generate with a random string}`
 
-Please change password to follow below instruction after spin up your gitpod instance:
+Please change password to following below instructions after spin up your gitpod instance:
 - open new terminal(`` Ctrl+Shift+` ``) on the gitpod.io
 - run `vendor/bin/drush upwd admin YOUR_FAVORITE_PASSWORD`
 
 ## How to add some modules
-Of cource, you can add extra contribute modules or packages with below instruction:
+Of cource, you can add extra contribute modules or packages with below instructions:
 - open new terminal( `Ctrl+Shift+` `) on the gitpod.io
 - run `composer require foo/bar`
 
