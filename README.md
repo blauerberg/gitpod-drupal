@@ -31,6 +31,9 @@ Of cource, you can add extra contribute modules or packages with below instructi
 - open new terminal( `Ctrl+Shift+` `) on the gitpod.io
 - run `composer require foo/bar`
 
+## How to use xdebug
+This pod includes Xdebug extention and Theia settings so you can start debugging from Debug > Start Debugging(`F5`) on the Theia.
+
 ## License
 
 [MIT](LICENSE)
