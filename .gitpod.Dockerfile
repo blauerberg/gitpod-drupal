@@ -5,7 +5,6 @@ USER gitpod
 # Debugging PHP in Gitpod
 # https://www.gitpod.io/docs/languages/php/
 RUN sudo apt-get -q update && \
-     sudo apt-get install -yq pwgen && \
      sudo apt-get install -y php-dev && \
      sudo rm -rf /var/lib/apt/lists/*
 

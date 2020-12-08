@@ -7,5 +7,5 @@ vendor/bin/drush -y site:install \
   standard \
   --site-name="gitpod-drupal" \
   --account-name="admin" \
-  --account-pass="$(pwgen -c -n -y -s 12 1)" \
+  --account-pass="$(openssl rand -base64 16)" \
   --db-url=sqlite://sites/default/files/.ht.sqlite
