@@ -11,8 +11,7 @@ RUN sudo apt-get -q update && \
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
     && php composer-setup.php --quiet \
-    && chmod +x composer.phar \
-    && mv composer.phar /usr/local/bin/composer \
+    && sudo mv composer.phar /usr/local/bin/composer \
     && rm -f composer-setup.php
 
 RUN wget http://xdebug.org/files/xdebug-2.9.1.tgz \
