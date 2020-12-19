@@ -6,7 +6,14 @@ USER gitpod
 # https://www.gitpod.io/docs/languages/php/
 RUN sudo apt-get -q update && \
      sudo apt-get install -y php-dev && \
+     sudo apt-get purge -y composer && \
      sudo rm -rf /var/lib/apt/lists/*
+
+RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
+    && php composer-setup.php --quiet \
+    && chmod +x composer.phar \
+    && mv composer.phar /usr/local/bin/composer \
+    && rm -f composer-setup.php
 
 RUN wget http://xdebug.org/files/xdebug-2.9.1.tgz \
     && tar -xvzf xdebug-2.9.1.tgz \
