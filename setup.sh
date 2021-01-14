@@ -1,6 +1,5 @@
 #/bin/sh
 
-composer global require hirak/prestissimo
 composer install
 
 vendor/bin/drush -y site:install \
