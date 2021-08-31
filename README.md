@@ -1,8 +1,9 @@
 # gitpod-drupal
 Start up the sandbox instance for Drupal on [gitpod.io](https://gitpod.io/).
 
-|Drupal 9.x|[![Drupal 9.x](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blauerberg/gitpod-drupal)|
+|Drupal 9.1.x|[![Drupal 9.1.x](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_CORE_VERSION=9.1.x/https://github.com/blauerberg/gitpod-drupal)|
 |-|-|
+|Drupal 8.9.x|[![Drupal 8.9.x](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_CORE_VERSION=8.9.x/https://github.com/blauerberg/gitpod-drupal)|
 
 ## How to installation
 
@@ -10,7 +11,6 @@ This pod will automatically install Drupal and get you started right away.
 It also includes the following modules to help debugging and code reading:
 - [Drush](https://www.drupal.org/project/drush)
 - [Devel](https://www.drupal.org/project/devel)
-- [Twig VarDumper](https://www.drupal.org/project/twig_vardumper)
 - [Twig Debugger](https://www.drupal.org/project/twig_debugger)
 - [Admin Toolbar](https://www.drupal.org/project/admin_toolbar)
 
@@ -20,7 +20,7 @@ This pod create an account below when initialized:
 - username: `admin`
 - password: `{generate with a random string}`
 
-Please change password to following below instructions after spin up your gitpod instance:
+Please change password to following instructions after spin up your gitpod instance:
 - open new terminal(`` Ctrl+Shift+` ``) on the gitpod.io
 - run `vendor/bin/drush upwd admin YOUR_FAVORITE_PASSWORD`
 
