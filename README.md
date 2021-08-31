@@ -21,7 +21,7 @@ This pod create an account below when initialized:
 - username: `admin`
 - password: `{generate with a random string}`
 
-Please change password to following below instructions after spin up your gitpod instance:
+Please change password to following instructions after spin up your gitpod instance:
 - open new terminal(`` Ctrl+Shift+` ``) on the gitpod.io
 - run `vendor/bin/drush upwd admin YOUR_FAVORITE_PASSWORD`
 
