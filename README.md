@@ -3,14 +3,12 @@ Start up the sandbox instance for Drupal on [gitpod.io](https://gitpod.io/).
 
 |Drupal 9.x|[![Drupal 9.x](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blauerberg/gitpod-drupal)|
 |-|-|
-|Drupal 8.9.x|[![Drupal 8.9.x](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blauerberg/gitpod-drupal/tree/8.9.x)|
 
 ## How to installation
 
 This pod will automatically install Drupal and get you started right away.
 It also includes the following modules to help debugging and code reading:
 - [Drush](https://www.drupal.org/project/drush)
-- [Drupal Console](https://drupalconsole.com/) (8.9.x only)
 - [Devel](https://www.drupal.org/project/devel)
 - [Twig VarDumper](https://www.drupal.org/project/twig_vardumper)
 - [Twig Debugger](https://www.drupal.org/project/twig_debugger)
