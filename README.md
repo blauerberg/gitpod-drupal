@@ -1,8 +1,9 @@
 # gitpod-drupal
 Start up the sandbox instance for Drupal on [gitpod.io](https://gitpod.io/).
 
-|Drupal 9.x|[![Drupal 9.x](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blauerberg/gitpod-drupal)|
+|Drupal 9.1.x|[![Drupal 9.1.x](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_CORE_VERSION=9.1.x/https://github.com/blauerberg/gitpod-drupal)|
 |-|-|
+|Drupal 8.9.x|[![Drupal 8.9.x](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#DRUPAL_CORE_VERSION=8.9.x/https://github.com/blauerberg/gitpod-drupal)|
 
 ## How to installation
 
