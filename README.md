@@ -11,7 +11,6 @@ This pod will automatically install Drupal and get you started right away.
 It also includes the following modules to help debugging and code reading:
 - [Drush](https://www.drupal.org/project/drush)
 - [Devel](https://www.drupal.org/project/devel)
-- [Twig VarDumper](https://www.drupal.org/project/twig_vardumper)
 - [Twig Debugger](https://www.drupal.org/project/twig_debugger)
 - [Admin Toolbar](https://www.drupal.org/project/admin_toolbar)
 

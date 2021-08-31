@@ -9,7 +9,6 @@ cd drupal
 # Add essential contirbute modules
 composer require drush/drush
 composer require drupal/devel
-composer require drupal/twig_vardumper
 composer require drupal/twig_debugger
 composer require drupal/admin_toolbar
 composer install
