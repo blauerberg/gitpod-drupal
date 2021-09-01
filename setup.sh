@@ -15,7 +15,7 @@ composer require drupal/coder
 composer install
 
 # Setup the phpcs standard
-vendor/bin/phpcs --config-set installed_paths vendor/drupal/coder/coder_sniffer/
+vendor/bin/phpcs --config-set installed_paths $(realpath vendor/drupal/coder/coder_sniffer/)
 vendor/bin/phpcs --config-set default_standard Drupal,DrupalPractice
 
 # Install Drupal
