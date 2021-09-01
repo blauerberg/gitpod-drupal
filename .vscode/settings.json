@@ -1,0 +1,22 @@
+{
+  "intelephense.files.associations": [
+    "*.php",
+    "*.phtml",
+    "*.module",
+    "*.theme",
+    "*.profile",
+    "*.install",
+    "*.inc"
+  ],
+  "intelephense.environment.phpVersion": "7.4.0",
+  "php.suggest.basic": false,
+  "phpcs.standard": "Drupal,DrupalPractice",
+  "phpcs.ignorePatterns": [
+    "vendor/*"
+  ],
+  "php-docblocker.qualifyClassNames": true,
+  "php-docblocker.useShortNames": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
+}
