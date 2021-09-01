@@ -10,9 +10,11 @@
   ],
   "intelephense.environment.phpVersion": "7.4.0",
   "php.suggest.basic": false,
+  "phpcs.executablePath": "/workspace/gitpod-drupal/drupal/vendor/bin/phpcs",
+  "phpcs.composerJsonPath": "/workspace/gitpod-drupal/drupal/composer.json",
   "phpcs.standard": "Drupal,DrupalPractice",
   "phpcs.ignorePatterns": [
-    "vendor/*"
+    "drupal/vendor/*"
   ],
   "php-docblocker.qualifyClassNames": true,
   "php-docblocker.useShortNames": true,
