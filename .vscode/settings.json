@@ -1,0 +1,24 @@
+{
+  "intelephense.files.associations": [
+    "*.php",
+    "*.phtml",
+    "*.module",
+    "*.theme",
+    "*.profile",
+    "*.install",
+    "*.inc"
+  ],
+  "intelephense.environment.phpVersion": "7.4.0",
+  "php.suggest.basic": false,
+  "phpcs.executablePath": "/workspace/gitpod-drupal/drupal/vendor/bin/phpcs",
+  "phpcs.composerJsonPath": "/workspace/gitpod-drupal/drupal/composer.json",
+  "phpcs.standard": "Drupal,DrupalPractice",
+  "phpcs.ignorePatterns": [
+    "drupal/vendor/*"
+  ],
+  "php-docblocker.qualifyClassNames": true,
+  "php-docblocker.useShortNames": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
+}
