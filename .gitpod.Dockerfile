@@ -22,4 +22,4 @@ RUN wget https://xdebug.org/files/xdebug-3.0.4.tgz \
     && make \
     && sudo mkdir -p /usr/lib/php/20190902 \
     && sudo cp modules/xdebug.so /usr/lib/php/20190902 \
-    && sudo bash -c "echo -e '\nzend_extension = /usr/lib/php/20190902/xdebug.so\n[XDebug]\nxdebug.mode = off\nxdebug.start_with_request = yes\nxdebug.discover_client_host = 1\n' >> /etc/php/7.4/cli/php.ini"
+    && sudo bash -c "echo -e '\nzend_extension = /usr/lib/php/20190902/xdebug.so\n[XDebug]\nxdebug.mode = off\nxdebug.start_with_request = yes\nxdebug.discover_client_host = 1\n' >> /etc/php/8.0/cli/php.ini"
