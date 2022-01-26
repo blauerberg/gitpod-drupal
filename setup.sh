@@ -3,7 +3,7 @@ set -e
 
 # Create new drupal core code tree
 mkdir drupal
-composer create-project drupal/recommended-project:${DRUPAL_CORE_VERSION} drupal
+composer -n create-project drupal/recommended-project:${DRUPAL_CORE_VERSION} drupal
 cd drupal
 
 # Add essential contirbute modules
