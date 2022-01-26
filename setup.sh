@@ -7,12 +7,12 @@ composer -n create-project drupal/recommended-project:${DRUPAL_CORE_VERSION} dru
 cd drupal
 
 # Add essential contirbute modules
-composer require drush/drush:^10
-composer require drupal/devel
-composer require drupal/twig_debugger
-composer require drupal/admin_toolbar
-composer require drupal/coder
-composer install
+composer -n require drush/drush:^10
+composer -n require drupal/devel
+composer -n require drupal/twig_debugger
+composer -n require drupal/admin_toolbar
+composer -n require drupal/coder
+composer -n install
 
 # Setup the phpcs standard
 vendor/bin/phpcs --config-set installed_paths $(realpath vendor/drupal/coder/coder_sniffer/)
