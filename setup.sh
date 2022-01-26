@@ -7,7 +7,7 @@ composer create-project drupal/recommended-project:${DRUPAL_CORE_VERSION} drupal
 cd drupal
 
 # Add essential contirbute modules
-composer require drush/drush
+composer require drush/drush:^10
 composer require drupal/devel
 composer require drupal/twig_debugger
 composer require drupal/admin_toolbar
