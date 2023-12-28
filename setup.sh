@@ -7,11 +7,12 @@ composer -n create-project drupal/recommended-project:${DRUPAL_CORE_VERSION} dru
 cd drupal
 
 # Add essential contirbute modules
-composer -n require drush/drush:^10
+composer -n require drush/drush
 composer -n require drupal/devel
 composer -n require drupal/twig_debugger
 composer -n require drupal/admin_toolbar
 composer -n require drupal/coder
+composer -n require drupal/webprofiler
 composer -n install
 
 # Setup the phpcs standard
