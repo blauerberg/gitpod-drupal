@@ -1,25 +1,26 @@
 {
-  "intelephense.files.associations": [
-    "*.php",
-    "*.phtml",
-    "*.module",
-    "*.theme",
-    "*.profile",
-    "*.install",
-    "*.inc"
-  ],
-  "intelephense.environment.phpVersion": "8.0.0",
+  "search.useIgnoreFiles": false,
+  "php.validate.enable": true,
+  "php.validate.run": "onType",
   "php.suggest.basic": false,
-  "phpcs.executablePath": "/workspace/gitpod-drupal/drupal/vendor/bin/phpcs",
-  "phpcs.composerJsonPath": "/workspace/gitpod-drupal/drupal/composer.json",
-  "phpcs.standard": "Drupal,DrupalPractice",
-  "phpcs.ignorePatterns": [
-    "drupal/vendor/*"
-  ],
-  "php-docblocker.qualifyClassNames": true,
-  "php-docblocker.useShortNames": true,
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  "intelephense.environment.phpVersion": "8.2.0",
+  "intelephense.format.enable": false,
+  "files.associations": {
+    "*.php": "php",
+    "*.inc": "php",
+    "*.module": "php",
+    "*.install": "php",
+    "*.theme": "php",
+    "*.profile": "php",
+    "*.test": "php"
   },
-  "search.useIgnoreFiles": false
+  "intelephense.files.associations": ["*.php", "*.inc", "*.module", "*.install", "*.theme", "*.profile", "*.test"],
+  "phpsab.snifferMode": "onType",
+  "phpsab.snifferShowSources": true,
+  "phpsab.composerJsonPath": "drupal/composer.json",
+  "phpsab.autoRulesetSearch": false,
+  "[php]": {
+    "editor.defaultFormatter": "valeryanm.vscode-phpsab",
+    "editor.formatOnSave": true
+  }
 }

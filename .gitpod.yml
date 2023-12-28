@@ -8,15 +8,14 @@ ports:
 
 vscode:
   extensions:
-    - bmewburn.vscode-intelephense-client
-    - shevaua.phpcs
-    - neilbrayfield.php-docblocker
-    - felixfbecker.php-debug
-    - skippednote.vs-code-drupal
-    - eamodio.gitlens
-    - davidanson.vscode-markdownlint
+    - MS-vsliveshare.vsliveshare
+    - GitHub.vscode-pull-request-github
+    - GitHub.copilot
     - editorconfig.editorconfig
-    - redhat.vscode-yaml
+    - xdebug.php-debug
+    - valeryanm.vscode-phpsab
+    - mblode.twig-language-2
+    - bmewburn.vscode-intelephense-client
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
